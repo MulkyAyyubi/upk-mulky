@@ -75,7 +75,7 @@ export const updateBook = async (id, request) => {
     throw new ResponseError(404, "product with such id does not exist");
   }
 
-  return { id, ...updatedBook };
+  return { id: Number(id), ...updatedBook };
 };
 
 export const deleteBook = async (id) => {
