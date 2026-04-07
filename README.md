@@ -25,7 +25,7 @@ cd backend
 npm start
 cd frontend
 npm run dev
-
+```
 ---
 Made with ❤️ by Mulky
 
